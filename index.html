@@ -6,22 +6,68 @@
   <title>Men’s Health India</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-white text-gray-900 font-sans">
-  <header class="min-h-screen flex flex-col items-center justify-center p-8 text-center bg-gray-50">
-    <h1 class="text-4xl sm:text-5xl font-bold tracking-tight mb-4">
+<body class="min-h-screen bg-white text-gray-800 p-4 md:p-12 font-sans">
+
+  <header class="text-center py-10">
+    <h1 class="text-4xl md:text-5xl font-bold text-blue-700">
       Men’s Health India
     </h1>
-    <p class="text-lg sm:text-xl text-gray-700 max-w-2xl">
-      A platform to promote awareness, resources, and peer support for men’s mental health and well-being in India.
+    <p class="mt-4 text-lg md:text-xl">
+      Changing the conversation around men’s health in India.
     </p>
     <div class="mt-6 flex flex-col sm:flex-row justify-center gap-4">
-      <button class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+      <button class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">
         Explore Resources
       </button>
-      <button class="border border-gray-400 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-100 transition">
+      <button class="border border-gray-400 text-gray-800 px-6 py-3 rounded hover:bg-gray-100 transition">
         Join Peer Support Group
       </button>
     </div>
   </header>
+
+  <section class="py-12 grid md:grid-cols-2 gap-6">
+    <div class="border rounded-lg shadow p-6">
+      <h2 class="text-2xl font-semibold mb-2">Why Men’s Health Matters</h2>
+      <p>
+        75% of suicides in India are by men. Yet conversations around male
+        mental health, sexual health, and emotional well-being remain in
+        the shadows.
+      </p>
+    </div>
+
+    <div class="border rounded-lg shadow p-6">
+      <h2 class="text-2xl font-semibold mb-2">Featured Articles</h2>
+      <ul class="list-disc ml-6">
+        <li>How Indian Men Cope with Depression</li>
+        <li>What No One Tells You About Men’s Sexual Health</li>
+        <li>Real Stories from Men Like You</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="py-12">
+    <div class="border rounded-lg shadow p-6">
+      <h2 class="text-2xl font-semibold mb-4">Find Help</h2>
+      <ul class="space-y-2">
+        <li><a href="#" class="text-blue-600 hover:underline">Find a Therapist</a></li>
+        <li><a href="#" class="text-blue-600 hover:underline">Take a Self-Assessment</a></li>
+        <li><a href="#" class="text-blue-600 hover:underline">Join Our WhatsApp Support Group</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="text-center py-12">
+    <h2 class="text-2xl font-semibold mb-4">Join the Movement</h2>
+    <div class="flex flex-col sm:flex-row justify-center gap-4">
+      <button class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">Volunteer</button>
+      <button class="border border-gray-400 text-gray-800 px-6 py-3 rounded hover:bg-gray-100 transition">Partner With Us</button>
+      <button class="border border-gray-400 text-gray-800 px-6 py-3 rounded hover:bg-gray-100 transition">Donate</button>
+    </div>
+  </section>
+
+  <footer class="text-center py-6 text-gray-500">
+    © 2025 Men’s Health India. All rights reserved.
+  </footer>
+
 </body>
 </html>
